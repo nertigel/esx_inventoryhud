@@ -36,11 +36,11 @@ git clone https://github.com/Nertigel/esx_inventoryhud [esx]/esx_inventoryhud
 ```
 
 ### Manually
-- Download https://github.com/Nertigel/esx_ner_inventoryhud/archive/master.zip
+- Download https://github.com/Nertigel/esx_inventoryhud/archive/master.zip
 - Put it in the `[esx]` directory
 
 ## Installation
-Check [wiki file](https://github.com/Nertigel/esx_ner_inventoryhud/blob/master/WIKI.md)
+Check [wiki file](https://github.com/Nertigel/esx_inventoryhud/blob/master/WIKI.md)
 
 ## Config files
 * config.lua
