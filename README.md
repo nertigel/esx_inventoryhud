@@ -23,7 +23,7 @@ Inventory HUD for ESX. You can open and close inventory using F2. Part of code w
 * [Vehicle trunk inventory](https://github.com/Nertigel/esx_inventoryhud_trunk/tree/master)
 
 ## Screens
-* [https://i.imgur.com/eHD01Tl.png](https://i.imgur.com/eHD01Tl.png)
+* [https://i.imgur.com/YPYowrJ.png](https://i.imgur.com/YPYowrJ.png)
 
 ## Commands
 * **/openinventory <player_id>** - opens given player inventory (`inventory.openinventory` permission)
