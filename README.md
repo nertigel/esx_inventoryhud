@@ -17,6 +17,7 @@ Inventory HUD for ESX. You can open and close inventory using F2. Part of code w
 - Another players inventory support
 - Fully configurable (check config.lua and html/js/config.js)
 - Locale files included (check locales/ and html/locales/ directories)
+- Close inventory using client trigger (**esx_inventoryhud:doClose**)
 
 ## Addons
 * [Vehicle trunk inventory](https://github.com/Nertigel/esx_inventoryhud_trunk/tree/master)
