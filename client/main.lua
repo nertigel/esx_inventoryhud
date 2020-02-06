@@ -121,6 +121,10 @@ AddEventHandler("esx_inventoryhud:doClose", function()
     closeInventory()
 end)
 
+RegisterCommand('closeinv', function(source, args, raw)
+    closeInventory()
+end)
+
 function closeInventory()
     isInInventory = false
     SendNUIMessage(
