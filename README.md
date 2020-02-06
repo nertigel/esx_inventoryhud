@@ -28,6 +28,7 @@ Inventory HUD for ESX. You can open and close inventory using F2. Part of code w
 
 ## Commands
 * **/openinventory <player_id>** - opens given player inventory (`inventory.openinventory` permission)
+* **/closeinv** - force closes inventory if it gets bugged
 
 ## Download
 
