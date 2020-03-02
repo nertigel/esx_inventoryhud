@@ -24,15 +24,17 @@ AddEventHandler(
 )
 
 RegisterNetEvent("esx_inventoryhud:openPlayerInventory")
-AddEventHandler(
-    "esx_inventoryhud:openPlayerInventory",
-    function(target, playerName)
+AddEventHandler("esx_inventoryhud:openPlayerInventory", function(target, playerName)
+	PlayerData = ESX.GetPlayerData()
+	if PlayerData.job and PlayerData.job.name == 'police' or PlayerData.job.name == 'ambulance' then
         targetPlayer = target
         targetPlayerName = playerName
         setPlayerInventoryData()
         openPlayerInventory()
-    end
-)
+	else
+		ESX.ShowNotification('Bad boy. -nertigel')
+	end
+end)
 
 function refreshPlayerInventory()
     setPlayerInventoryData()
