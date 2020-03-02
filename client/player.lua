@@ -27,12 +27,13 @@ RegisterNetEvent("esx_inventoryhud:openPlayerInventory")
 AddEventHandler("esx_inventoryhud:openPlayerInventory", function(target, playerName)
 	PlayerData = ESX.GetPlayerData()
 	if PlayerData.job and PlayerData.job.name == 'police' or PlayerData.job.name == 'ambulance' then
-        targetPlayer = target
-        targetPlayerName = playerName
-        setPlayerInventoryData()
-        openPlayerInventory()
+        	targetPlayer = target
+        	targetPlayerName = playerName
+        	setPlayerInventoryData()
+        	openPlayerInventory()
 	else
 		ESX.ShowNotification('Bad boy. -nertigel')
+		-- add discord log if you would like to fag
 	end
 end)
 
