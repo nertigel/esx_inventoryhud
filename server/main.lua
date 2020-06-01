@@ -58,21 +58,3 @@ AddEventHandler(
 		end
 	end
 )
-
-RegisterCommand(
-	"openinventory",
-	function(source, args, rawCommand)
-		if IsPlayerAceAllowed(source, "inventory.openinventory") then
-			local target = tonumber(args[1])
-			local targetXPlayer = ESX.GetPlayerFromId(target)
-
-			if targetXPlayer ~= nil then
-				TriggerClientEvent("esx_inventoryhud:openPlayerInventory", source, target, targetXPlayer.name)
-			else
-				TriggerClientEvent("chatMessage", source, "^1" .. _U("no_player"))
-			end
-		else
-			TriggerClientEvent("chatMessage", source, "^1" .. _U("no_permissions"))
-		end
-	end
-)
